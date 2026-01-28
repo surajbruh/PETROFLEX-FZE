@@ -7,6 +7,8 @@ const Header = () => {
   const { header } = useDataContext();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+// todo: add more content.
+
   return (
     <header>
       <nav className="bg-black text-white" aria-label="Main navigation">
