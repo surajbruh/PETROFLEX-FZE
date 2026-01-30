@@ -70,7 +70,6 @@ const WhyChooseUsSection = () => {
 
             </div>
         </section>
-
     )
 }
 
