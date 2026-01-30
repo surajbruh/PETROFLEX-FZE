@@ -1,17 +1,10 @@
-import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import useDataContext from "../contexts/DataContext";
 
-const PageBanner = () => {
-    const { pageBanner } = useDataContext();
+const PageBanner = ({ backgroundImage }) => {
     const { pathname } = useLocation();
 
     const endpoint = pathname.split("/").filter(Boolean).pop() || "home";
     const pageTitle = endpoint.charAt(0).toUpperCase() + endpoint.slice(1);
-
-    useEffect(() => { console.log(endpoint, pageTitle) }, [endpoint, pageTitle])
-
-    const defaultBackgroundImage = "https://images.unsplash.com/photo-1761839258657-457dda39b5cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 
     return (
         <header className="w-full">
@@ -24,7 +17,7 @@ const PageBanner = () => {
                 {/* Background Image */}
                 <img
                     className="w-full h-full object-cover object-center"
-                    src={pageBanner.backgroundImage || defaultBackgroundImage}
+                    src={backgroundImage}
                     alt="Construction materials banner"
                     loading="lazy"
                 />

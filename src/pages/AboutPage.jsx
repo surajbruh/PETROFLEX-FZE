@@ -1,4 +1,5 @@
 import React from 'react'
+import useDataContext from '../contexts/DataContext'
 
 import PageBanner from '../components/PageBanner'
 
@@ -7,9 +8,10 @@ import AboutSection from '../sections/AboutSection'
 import StatsSection from "../sections/StatsSection"
 
 const AboutPage = () => {
+    const { aboutPage } = useDataContext()
     return (
         <main>
-            <PageBanner />
+            <PageBanner backgroundImage={aboutPage.pageBannerImage} />
             <AboutSection />
             <StatsSection />
             <WhyChooseUsSection />

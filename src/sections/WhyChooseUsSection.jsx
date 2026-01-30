@@ -1,7 +1,11 @@
 import React from "react";
 import Accordion from "../components/Accordion";
 
-const WhyChooseUsSection = ({ data }) => {
+import useDataContext from "../contexts/DataContext";
+
+const WhyChooseUsSection = () => {
+    const { whyChooseUsSection: data } = useDataContext()
+
     return (
         <section
             aria-labelledby="why-choose-us-heading"

@@ -16,7 +16,7 @@ const HomePage = () => {
       <Carousel hero={homepage.hero} />
       <ProductSection data={homepage.productSection} />
       <Banner data={homepage.banner} />
-      <WhyChooseUsSection data={homepage.chooseUsSection} />
+      <WhyChooseUsSection />
       <ServiceSection data={homepage.serviceSection} />
     </main>
   );
