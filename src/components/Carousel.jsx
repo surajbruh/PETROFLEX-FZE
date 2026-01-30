@@ -1,17 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 import "swiper/css";
 
-const Carousel = () => {
-  const heroImages = [
-    "https://images.unsplash.com/photo-1768849940833-88a1be7a6b44?q=80&w=1166&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1761839258075-585182da7521?q=80&w=1170&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1769084644249-ad3e8b8ba730?q=80&w=1092&auto=format&fit=crop",
-  ];
-
+const Carousel = ({ hero }) => {
   return (
     <section
-      aria-label="Homepage Banner Carousel"
+      aria-label="Homepage banner"
       className="relative w-full bg-(--color-bg-section)"
     >
       {/* Overlay Content */}
@@ -19,30 +14,30 @@ const Carousel = () => {
         <div className="container mx-auto px-4 text-center text-white">
           <div className="max-w-4xl mx-auto space-y-4">
             <h1 className="uppercase font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
-              Unlock global markets with trusted trade solutions
+              {hero.heading}
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg">
-              Welcome to Regas Trading FZE, your trusted global trade partner.
+              {hero.description}
             </p>
 
             <nav
               aria-label="Homepage primary actions"
               className="flex flex-wrap justify-center gap-3 pt-4"
             >
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 className="uppercase px-6 py-2 text-sm sm:text-base bg-red-500 hover:bg-red-600 transition-colors"
               >
                 Discover More
-              </a>
+              </Link>
 
-              <a
-                href="/services"
+              <Link
+                to="/services"
                 className="uppercase px-6 py-2 text-sm sm:text-base bg-transparent border border-white hover:bg-white hover:text-black transition-colors"
               >
                 Learn More
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
@@ -56,12 +51,12 @@ const Carousel = () => {
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         className="w-full h-[45vh] sm:h-[55vh] md:h-[65vh] max-h-[520px]"
       >
-        {heroImages.map((src, index) => (
-          <SwiperSlide key={index}>
+        {hero.slides.map((src, index) => (
+          <SwiperSlide key={src}>
             <figure className="w-full h-full">
               <img
                 src={src}
-                alt={`Regas Trading global trade banner ${index + 1}`}
+                alt={`PETROFLEX FZE global petrochemical trading banner ${index + 1}`}
                 className="w-full h-full object-cover"
                 loading={index === 0 ? "eager" : "lazy"}
               />

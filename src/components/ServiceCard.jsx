@@ -1,14 +1,14 @@
 import React from "react";
-import { ChevronRight } from "lucide-react";
 
-const ServiceCard = ({
-    title,
-    description,
-    icon,
-}) => {
+const ServiceCard = ({ title, description, icon }) => {
+    const headingId = title
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "");
+
     return (
         <article
-            aria-labelledby={title}
+            aria-labelledby={headingId}
             className="
         relative bg-white p-6 rounded-lg
         shadow-sm hover:shadow-md
@@ -17,18 +17,16 @@ const ServiceCard = ({
         focus-within:ring-2 focus-within:ring-red-500
       "
         >
-            {/* Icon */}
-            <div className="h-16 w-16 rounded-full bg-red-500 flex items-center justify-center">
-                {icon ? (
-                    icon
-                ) : (
-                    <span className="sr-only">{title} icon</span>
-                )}
-            </div>
+            {/* Icon (decorative) */}
+            {icon && (
+                <div className="h-16 w-16 rounded-full bg-red-500 flex items-center justify-center">
+                    <span aria-hidden="true">{icon}</span>
+                </div>
+            )}
 
             {/* Title */}
             <h3
-                id={title}
+                id={headingId}
                 className="font-semibold text-lg sm:text-xl leading-tight"
             >
                 {title}

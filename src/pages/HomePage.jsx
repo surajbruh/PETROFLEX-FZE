@@ -6,24 +6,18 @@ import ProductSection from "../sections/ProductSection";
 import ServiceSection from "../sections/ServiceSection";
 import WhyChooseUsSection from "../sections/WhyChooseUsSection";
 
+import useDataContext from "../contexts/DataContext";
+
 const HomePage = () => {
+
+  const { homepage } = useDataContext()
   return (
     <main>
-      {/* Hero Section */}
-      <Carousel />
-
-      {/* Products Section */}
-      <ProductSection />
-
-      {/* Banner / CTA Section */}
-      <Banner />
-
-      {/* Why Choose Us Section */}
-      <WhyChooseUsSection />
-
-      {/* Services Section */}
-      <ServiceSection />
-
+      <Carousel hero={homepage.hero} />
+      <ProductSection data={homepage.productSection} />
+      <Banner data={homepage.banner} />
+      <WhyChooseUsSection data={homepage.chooseUsSection} />
+      <ServiceSection data={homepage.serviceSection} />
     </main>
   );
 };

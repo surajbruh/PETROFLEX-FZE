@@ -45,7 +45,7 @@ const Footer = () => {
             </h2>
 
             <ul className="space-y-2 sm:space-y-3">
-              {footer.quicklinks.map((item) => (
+              {footer.quickLinks.map((item) => (
                 <li key={item.name}>
                   <Link
                     to={item.href || "#"}

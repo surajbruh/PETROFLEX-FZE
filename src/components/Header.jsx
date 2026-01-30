@@ -4,29 +4,28 @@ import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 import HeaderInfo from "./HeaderInfo";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const { header } = useDataContext();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  // todo: add more content.
 
   return (
     <header className="bg-zinc-950 text-white">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
 
         {/* Logo */}
-        <a
+        <Link
           href="/"
-          aria-label="Regas Trading FZE homepage"
+          aria-label="homepage"
           className="flex items-center mx-auto lg:mx-0"
         >
           <img
-            src="/brand_logo_nobg.png"
-            alt="Regas Trading FZE company logo"
+            src={header.brandLogo}
+            alt="company logo"
             className="aspect-video h-24 md:h-27"
           />
-        </a>
+        </Link>
 
         {/* Contact Info */}
         <HeaderInfo />
@@ -66,7 +65,6 @@ const Header = () => {
                   <NavLink
                     to={navItem.href}
                     onClick={() => {
-                      // setPage(navItem.name);
                       setIsMobileMenuOpen(false);
                     }}
                     className="block uppercase font-medium text-sm px-4 py-3 hover:bg-gray-800 transition-colors"

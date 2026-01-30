@@ -1,0 +1,192 @@
+{
+    "header": {
+        "brandLogo": "/brand_logo_nobg.png",
+        "brandName": "PETROFLEX FZE",
+        "navigation": [
+            {
+                "name": "Home",
+                "href": "/"
+            },
+            {
+                "name": "About Us",
+                "href": "/about"
+            },
+            {
+                "name": "Services",
+                "href": "/services"
+            },
+            {
+                "name": "Products",
+                "href": "/products"
+            },
+            {
+                "name": "Contact Us",
+                "href": "/contact"
+            }
+        ],
+        "contactItems": [
+            {
+                "icon": "Phone",
+                "label": "Phone",
+                "value": "+971 50 903 6334",
+                "href": "tel:+971509036334"
+            },
+            {
+                "icon": "Mail",
+                "label": "Email",
+                "value": "info@regasfze.com",
+                "href": "mailto:info@regasfze.com"
+            },
+            {
+                "icon": "MapPin",
+                "label": "Location",
+                "value": "Sharjah, UAE",
+                "href": null
+            }
+        ]
+    },
+    "footer": {
+        "quickLinks": [
+            {
+                "name": "Home",
+                "href": "/"
+            },
+            {
+                "name": "About Us",
+                "href": "/about"
+            },
+            {
+                "name": "Services",
+                "href": "/services"
+            },
+            {
+                "name": "Products",
+                "href": "/products"
+            },
+            {
+                "name": "Contact Us",
+                "href": "/contact"
+            }
+        ],
+        "products": [
+            {
+                "name": "Polyurethane Products",
+                "href": "/products/polyurethane"
+            },
+            {
+                "name": "Polymers",
+                "href": "/products/polymers"
+            },
+            {
+                "name": "Base Oil & Additives",
+                "href": "/products/base-oil-additives"
+            },
+            {
+                "name": "Oil, Gas & Petrochemicals",
+                "href": "/products/oil-gas-petrochemicals"
+            },
+            {
+                "name": "Industrial Raw Materials",
+                "href": "/products/industrial-raw-materials"
+            }
+        ],
+        "about": {
+            "brandName": "PETROFLEX FZE",
+            "brandLogo": "/brand_logo.svg",
+            "officeAddress": "P2 – Hamriyah Business Centre, Hamriyah Free Zone, Sharjah, United Arab Emirates",
+            "description": "PETROFLEX FZE is a UAE-based trading company licensed by the Hamriyah Free Zone Authority, specializing in the import, export, and international trading of petrochemicals, polymers, raw materials, and crude oil outside the UAE."
+        },
+        "contact": {
+            "address": "P2 – Hamriyah Business Centre, Hamriyah Free Zone, Sharjah, United Arab Emirates",
+            "phone": "+971 50 194 1986",
+            "email": "info@petroflexfze.com"
+        }
+    },
+    "homepage": {
+        "hero": {
+            "heading": "Unlock global markets with trusted trade solutions",
+            "description": "PETROFLEX FZE is a UAE-based trading company specializing in the import, export, and international trading of petrochemicals, polymers, raw materials, and crude oil across global markets.",
+            "slides": [
+                "https://images.unsplash.com/photo-1768849940833-88a1be7a6b44?q=80&w=1166&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1761839258075-585182da7521?q=80&w=1170&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1769084644249-ad3e8b8ba730?q=80&w=1092&auto=format&fit=crop"
+            ]
+        },
+        "productSection": {
+            "heading": "Petrochemical, polymer, and raw material trading solutions",
+            "description": "Explore our portfolio of petrochemicals, polymers, base oils, and industrial raw materials, supplied to meet global trade and industry requirements.",
+            "products": [
+                {
+                    "icon": "/svg/icon1.svg",
+                    "title": "Petrochemicals & Polymers",
+                    "description": "Trading and global distribution of petrochemicals and polymer products tailored for industrial applications.",
+                    "href": "/products/petrochemicals-polymers"
+                },
+                {
+                    "icon": "/svg/icon2.svg",
+                    "title": "Industrial Raw Materials",
+                    "description": "Supplying essential industrial raw materials that support manufacturing, processing, and production sectors.",
+                    "href": "/products/industrial-raw-materials"
+                },
+                {
+                    "icon": "/svg/icon3.svg",
+                    "title": "Base Oil & Additives",
+                    "description": "High-quality base oils and additives for lubricant blending and specialized industrial use.",
+                    "href": "/products/base-oil-additives"
+                }
+            ]
+        },
+        "banner": {
+            "backgroundImage": "https://images.unsplash.com/photo-1761839258239-2be2146f1605?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        "chooseUsSection": {
+            "heading": "Innovative Solutions for Every Challenge",
+            "description": " No matter how complex the problem, we find creative and effective solutions that drive long-term success.",
+            "imageURL": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "accordionItems": [
+                {
+                    "id": 1,
+                    "title": "What services do you offer?",
+                    "content": "We provide chartering, logistics, product trading, and cargo movement solutions across international markets."
+                },
+                {
+                    "id": 2,
+                    "title": "Do you handle international shipments?",
+                    "content": "Yes, we operate globally with trusted partners across major ports."
+                },
+                {
+                    "id": 3,
+                    "title": "How can I request a quote?",
+                    "content": "You can request a quote through our contact page — our team will respond promptly."
+                }
+            ]
+        },
+        "serviceSection": {
+            "heading": "Global trading services tailored for industrial markets",
+            "description": "We provide reliable trading and supply services in petrochemicals, polymers, base oils, and industrial raw materials across international markets.",
+            "services": [
+                {
+                    "id": 1,
+                    "icon": "/svg/service-petrochemical.svg",
+                    "title": "Petrochemical & Polymer Trading",
+                    "description": "International trading and distribution of petrochemicals and polymer products across global markets.",
+                    "href": "/services/petrochemical-polymer-trading"
+                },
+                {
+                    "id": 2,
+                    "icon": "/svg/service-raw-materials.svg",
+                    "title": "Industrial Raw Material Supply",
+                    "description": "Supplying high-quality industrial raw materials to support manufacturing and production sectors worldwide.",
+                    "href": "/services/industrial-raw-materials"
+                },
+                {
+                    "id": 3,
+                    "icon": "/svg/service-base-oil.svg",
+                    "title": "Base Oil & Additives Trading",
+                    "description": "Trading of base oils and additives for lubricant blending and specialized industrial applications.",
+                    "href": "/services/base-oil-additives"
+                }
+            ]
+        }
+    }
+}
