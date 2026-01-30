@@ -1,5 +1,7 @@
 import React from 'react'
 
+import FeatureGrid from '../components/FeatureGrid'
+
 const backgroundImage = "https://images.unsplash.com/photo-1761839258045-6ef373ab82a7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 
 const AboutSection = () => {
@@ -21,8 +23,8 @@ const AboutSection = () => {
                 </div>
 
                 {/* Content Column */}
-                <div className="">
-                    <span className="inline-block uppercase font-bold bg-red-600 text-white px-4 py-1 mb-4">
+                <div className="space-y-4">
+                    <span className="inline-block uppercase font-bold bg-red-600 text-white px-4 py-1">
                         about us
                     </span>
 
@@ -39,6 +41,10 @@ const AboutSection = () => {
                         </p>
 
                     </div>
+
+                    <FeatureGrid />
+
+                    <p className='italic font-light text-xl'>“Our goal is to not only meet but exceed expectations, fostering long-lasting partnerships built on trust and mutual success.”</p>
 
                 </div>
 
