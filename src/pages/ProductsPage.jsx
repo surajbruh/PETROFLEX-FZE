@@ -1,13 +1,16 @@
 import React from 'react'
+import useDataContext from '../contexts/DataContext'
 
 import PageBanner from '../components/PageBanner'
 import ProductSection from '../sections/ProductSection'
 
 const ProductsPage = () => {
+    const { productPage } = useDataContext()
+
     return (
         <main>
-            <PageBanner />
-            <ProductSection />
+            <PageBanner backgroundImage={productPage.pageBannerImage} />
+            <ProductSection data={productPage.productSection} />
         </main>
     )
 }
