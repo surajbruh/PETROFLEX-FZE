@@ -37,7 +37,7 @@ const AboutSection = () => {
                         </h2>
 
                         <p className="font-light text-sm sm:text-base md:text-lg">
-                            Welcome to Regas Trading FZE, your trusted global trade partner. We specialize in the import, export, and trading of raw materials, petrochemicals, and heavy equipment. Committed to delivering top-quality products and comprehensive logistic and consultancy services, we empower your business to succeed in the international market.
+                            Welcome to PETROFLEX FZE, your trusted global trading partner. We specialize in the import, export, and international trading of petrochemicals, polymers, base oils, additives, and industrial raw materials. With a strong focus on quality, compliance, and reliability, we support businesses worldwide by delivering tailored trading solutions that help them succeed in competitive global markets.
                         </p>
 
                     </div>
