@@ -24,11 +24,17 @@ const StandardContentSection = ({ data }) => {
             {heroImage && (
                 <img
                     src={heroImage}
-                    alt={`${heading} overview`}
-                    className="w-full h-auto rounded-md"
+                    alt={heading ? `${heading} overview` : "Section overview image"}
+                    className="
+                            w-full
+                            h-[30vh] sm:h-[35vh] md:h-[40vh]
+                            max-h-[350px]
+                            object-cover object-center
+                            rounded-md"
                     loading="lazy"
                 />
             )}
+
 
             {/* Heading & Intro */}
             <header className="space-y-4">

@@ -11,6 +11,7 @@ import ServicesPage from "./pages/ServicesPage";
 import ContactPage from "./pages/ContactPage";
 
 import PetroChemicalsPage from "./pages/PetroChemicalsPage";
+import CrudeOilPage from "./pages/CrudeOilPage";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
         <Route path="about" element={<AboutPage />} />
         <Route path="products" element={<ProductsPage />} />
         <Route path="products/petrochemicals-raw-materials" element={<PetroChemicalsPage />} />
-        {/* <Route path="products/products/crude-oil-trading-abroad" element={<ProductsPage />} /> */}
+        <Route path="products/crude-oil-trading-abroad" element={<CrudeOilPage />} />
         <Route path="services" element={<ServicesPage />} />
         <Route path="contact" element={<ContactPage />} />
       </Routes>
