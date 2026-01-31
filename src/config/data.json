@@ -223,5 +223,16 @@
     "contactPage": {
         "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28818.199367496814!2d55.44535797431641!3d25.462493899999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f562c4de2acd3%3A0x3843063a7aa84df6!2sHamriyah%20Free%20Zone%20-%20Head%20Office!5e0!3m2!1sen!2sin!4v1769841658355!5m2!1sen!2sin"
+    },
+    "petroChemicalsPage": {
+        "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "heroImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "heading": "Petrochemicals & Raw Materials Trading",
+        "description": "We specialize in the international trading and distribution of petrochemicals and industrial raw materials, supporting manufacturers and energy sectors across global markets.",
+        "supportingContent": {
+            "image": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "text": "Our trading operations are designed to handle bulk shipments and specialized requirements with a strong focus on quality control, regulatory compliance, and efficient global logistics."
+        },
+        "paragraph": "By working closely with trusted suppliers and international partners, we ensure consistent material availability, competitive pricing, and long-term reliability for our clients. Our expertise in petrochemical and raw material trading enables businesses to optimize production processes while reducing operational risks."
     }
 }

@@ -10,6 +10,8 @@ import ProductsPage from "./pages/ProductsPage";
 import ServicesPage from "./pages/ServicesPage";
 import ContactPage from "./pages/ContactPage";
 
+import PetroChemicalsPage from "./pages/PetroChemicalsPage";
+
 const App = () => {
   return (
     <>
@@ -18,6 +20,8 @@ const App = () => {
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="products" element={<ProductsPage />} />
+        <Route path="products/petrochemicals-raw-materials" element={<PetroChemicalsPage />} />
+        {/* <Route path="products/products/crude-oil-trading-abroad" element={<ProductsPage />} /> */}
         <Route path="services" element={<ServicesPage />} />
         <Route path="contact" element={<ContactPage />} />
       </Routes>
