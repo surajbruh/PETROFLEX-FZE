@@ -5,19 +5,19 @@ const contactItems = [
     {
         icon: Phone,
         label: "Phone",
-        value: "+971 50 903 6334",
+        value: "+971 501 94 1986",
         href: "tel:+971509036334",
     },
     {
         icon: Mail,
         label: "Email",
-        value: "info@regasfze.com",
-        href: "mailto:info@regasfze.com",
+        value: "info@petroflexfze.com",
+        href: "mailto:info@petroflexfze.com",
     },
     {
         icon: MapPin,
         label: "Location",
-        value: "Sharjah, UAE",
+        value: "Sharjah, United Arab Emirates",
         href: null,
     },
 ];

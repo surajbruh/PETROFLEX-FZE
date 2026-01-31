@@ -1,8 +1,10 @@
 import React from "react";
+import useDataContext from "../contexts/DataContext";
 import { Link } from "react-router-dom";
 import ServiceCard from "../components/ServiceCard";
 
-const ServiceSection = ({ data }) => {
+const ServiceSection = () => {
+    const { serviceSection: data } = useDataContext()
     return (
         <section
             aria-labelledby="services-heading"

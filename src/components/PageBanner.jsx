@@ -10,7 +10,7 @@ const PageBanner = ({ backgroundImage }) => {
         <header className="w-full">
             {/* Main banner */}
             <section
-                className="relative w-full h-[30vh] sm:h-[40vh] max-h-[300px] bg-(--color-bg-dark)"
+                className="relative w-full h-[150px] sm:h-[40vh] max-h-[300px] bg-(--color-bg-dark)"
                 aria-labelledby="page-banner-title"
                 role="banner"
             >

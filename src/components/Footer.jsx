@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white pt-12 pb-6" role="contentinfo">
       <div className="w-[90vw] sm:w-[85vw] lg:w-[80vw] mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center gap-8 md:gap-10 lg:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-12">
           {/* ========== BRAND + ABOUT ========== */}
           <section aria-labelledby="footer-about-heading">
             <div className="mb-5">

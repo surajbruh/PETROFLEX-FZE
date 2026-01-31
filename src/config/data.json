@@ -70,24 +70,12 @@
         ],
         "products": [
             {
-                "name": "Polyurethane Products",
-                "href": "/products/polyurethane"
+                "name": "Petrochemicals and Raw Materials",
+                "href": "/products/petrochemicals-raw-materials"
             },
             {
-                "name": "Polymers",
-                "href": "/products/polymers"
-            },
-            {
-                "name": "Base Oil & Additives",
-                "href": "/products/base-oil-additives"
-            },
-            {
-                "name": "Oil, Gas & Petrochemicals",
-                "href": "/products/oil-gas-petrochemicals"
-            },
-            {
-                "name": "Industrial Raw Materials",
-                "href": "/products/industrial-raw-materials"
+                "name": "Crude Oil Trading Abroad",
+                "href": "/products/crude-oil-trading-abroad"
             }
         ],
         "about": {
@@ -146,6 +134,33 @@
             }
         ]
     },
+    "serviceSection": {
+        "heading": "Global trading services tailored for industrial markets",
+        "description": "We provide reliable trading and supply services in petrochemicals, polymers, base oils, and industrial raw materials across international markets.",
+        "services": [
+            {
+                "id": 1,
+                "icon": "/svg/service-petrochemical.svg",
+                "title": "Petrochemical & Polymer Trading",
+                "description": "International trading and distribution of petrochemicals and polymer products across global markets.",
+                "href": "/services/petrochemical-polymer-trading"
+            },
+            {
+                "id": 2,
+                "icon": "/svg/service-raw-materials.svg",
+                "title": "Industrial Raw Material Supply",
+                "description": "Supplying high-quality industrial raw materials to support manufacturing and production sectors worldwide.",
+                "href": "/services/industrial-raw-materials"
+            },
+            {
+                "id": 3,
+                "icon": "/svg/service-base-oil.svg",
+                "title": "Base Oil & Additives Trading",
+                "description": "Trading of base oils and additives for lubricant blending and specialized industrial applications.",
+                "href": "/services/base-oil-additives"
+            }
+        ]
+    },
     "homepage": {
         "hero": {
             "heading": "Unlock global markets with trusted trade solutions",
@@ -162,53 +177,20 @@
             "products": [
                 {
                     "icon": "/svg/icon1.svg",
-                    "title": "Petrochemicals & Polymers",
-                    "description": "Trading and global distribution of petrochemicals and polymer products tailored for industrial applications.",
-                    "href": "/products/petrochemicals-polymers"
+                    "title": "Petrochemicals & Raw Materials",
+                    "description": "Trading and global distribution of petrochemicals and industrial raw materials to support manufacturing and energy sectors worldwide.",
+                    "href": "/products/petrochemicals-raw-materials"
                 },
                 {
-                    "icon": "/svg/icon2.svg",
-                    "title": "Industrial Raw Materials",
-                    "description": "Supplying essential industrial raw materials that support manufacturing, processing, and production sectors.",
-                    "href": "/products/industrial-raw-materials"
-                },
-                {
-                    "icon": "/svg/icon3.svg",
-                    "title": "Base Oil & Additives",
-                    "description": "High-quality base oils and additives for lubricant blending and specialized industrial use.",
-                    "href": "/products/base-oil-additives"
+                    "icon": "/svg/icon1.svg",
+                    "title": "Crude Oil Trading Abroad",
+                    "description": "International trading of crude oil outside the UAE, conducted in compliance with global trade regulations.",
+                    "href": "/products/crude-oil-trading-abroad"
                 }
             ]
         },
         "banner": {
             "backgroundImage": "https://images.unsplash.com/photo-1761839258239-2be2146f1605?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        },
-        "serviceSection": {
-            "heading": "Global trading services tailored for industrial markets",
-            "description": "We provide reliable trading and supply services in petrochemicals, polymers, base oils, and industrial raw materials across international markets.",
-            "services": [
-                {
-                    "id": 1,
-                    "icon": "/svg/service-petrochemical.svg",
-                    "title": "Petrochemical & Polymer Trading",
-                    "description": "International trading and distribution of petrochemicals and polymer products across global markets.",
-                    "href": "/services/petrochemical-polymer-trading"
-                },
-                {
-                    "id": 2,
-                    "icon": "/svg/service-raw-materials.svg",
-                    "title": "Industrial Raw Material Supply",
-                    "description": "Supplying high-quality industrial raw materials to support manufacturing and production sectors worldwide.",
-                    "href": "/services/industrial-raw-materials"
-                },
-                {
-                    "id": 3,
-                    "icon": "/svg/service-base-oil.svg",
-                    "title": "Base Oil & Additives Trading",
-                    "description": "Trading of base oils and additives for lubricant blending and specialized industrial applications.",
-                    "href": "/services/base-oil-additives"
-                }
-            ]
         }
     },
     "aboutPage": {
@@ -222,23 +204,24 @@
             "products": [
                 {
                     "icon": "/svg/icon1.svg",
-                    "title": "Petrochemicals & Polymers",
-                    "description": "Trading and global distribution of petrochemicals and polymer products tailored for industrial applications.",
-                    "href": "/products/petrochemicals-polymers"
+                    "title": "Petrochemicals & Raw Materials",
+                    "description": "Trading and global distribution of petrochemicals and industrial raw materials to support manufacturing and energy sectors worldwide.",
+                    "href": "/products/petrochemicals-raw-materials"
                 },
                 {
-                    "icon": "/svg/icon2.svg",
-                    "title": "Industrial Raw Materials",
-                    "description": "Supplying essential industrial raw materials that support manufacturing, processing, and production sectors.",
-                    "href": "/products/industrial-raw-materials"
-                },
-                {
-                    "icon": "/svg/icon3.svg",
-                    "title": "Base Oil & Additives",
-                    "description": "High-quality base oils and additives for lubricant blending and specialized industrial use.",
-                    "href": "/products/base-oil-additives"
+                    "icon": "/svg/icon1.svg",
+                    "title": "Crude Oil Trading Abroad",
+                    "description": "International trading of crude oil outside the UAE, conducted in compliance with global trade regulations.",
+                    "href": "/products/crude-oil-trading-abroad"
                 }
             ]
         }
+    },
+    "servicesPage": {
+        "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "contactPage": {
+        "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28818.199367496814!2d55.44535797431641!3d25.462493899999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f562c4de2acd3%3A0x3843063a7aa84df6!2sHamriyah%20Free%20Zone%20-%20Head%20Office!5e0!3m2!1sen!2sin!4v1769841658355!5m2!1sen!2sin"
     }
 }

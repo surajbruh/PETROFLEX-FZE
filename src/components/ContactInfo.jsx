@@ -1,19 +1,23 @@
-import React from 'react'
+import React from "react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const contactItems = [
     {
+        icon: Phone,
         label: "Phone",
-        value: "+971 50 903 6334",
-        href: "tel:+971509036334",
+        value: "+971 50 194 1986",
+        href: "tel:+971501941986",
     },
     {
+        icon: Mail,
         label: "Email",
-        value: "info@regasfze.com",
-        href: "mailto:info@regasfze.com",
+        value: "info@petroflexfze.com",
+        href: "mailto:info@petroflexfze.com",
     },
     {
+        icon: MapPin,
         label: "Location",
-        value: "Sharjah, UAE",
+        value: "Sharjah, United Arab Emirates",
         href: null,
     },
 ];
@@ -21,37 +25,42 @@ const contactItems = [
 const ContactInfo = () => {
     return (
         <div className="hidden lg:flex flex-col gap-10">
-            {contactItems.map((item) => (
-                <div
-                    key={item.label}
-                    className="flex items-center gap-4"
-                >
-                    {/* Icon placeholder */}
-                    <div className="h-12 w-12 rounded-full bg-red-500 flex items-center justify-center" />
+            {contactItems.map((item) => {
+                const Icon = item.icon;
 
-                    {/* Text */}
-                    <div className="leading-tight">
-                        <p className="text-xl font-medium">
-                            {item.label}
-                        </p>
+                return (
+                    <div
+                        key={item.label}
+                        className="flex items-center gap-4"
+                    >
+                        {/* Icon */}
+                        <div className="h-12 w-12 rounded-full bg-red-500 flex items-center justify-center">
+                            <Icon className="text-white" aria-hidden="true" />
+                        </div>
 
-                        {item.href ? (
-                            <a
-                                href={item.href}
-                                className="hover:underline"
-                            >
-                                {item.value}
-                            </a>
-                        ) : (
-                            <p className="">
-                                {item.value}
+                        {/* Text */}
+                        <div className="leading-tight">
+                            <p className="text-xl font-medium">
+                                {item.label}
                             </p>
-                        )}
-                    </div>
-                </div>
-            ))}
-        </div>
-    )
-}
 
-export default ContactInfo
+                            {item.href ? (
+                                <a
+                                    href={item.href}
+                                    className="hover:underline"
+                                    aria-label={`${item.label}: ${item.value}`}
+                                >
+                                    {item.value}
+                                </a>
+                            ) : (
+                                <p>{item.value}</p>
+                            )}
+                        </div>
+                    </div>
+                );
+            })}
+        </div>
+    );
+};
+
+export default ContactInfo;

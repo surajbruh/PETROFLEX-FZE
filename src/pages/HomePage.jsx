@@ -17,7 +17,7 @@ const HomePage = () => {
       <ProductSection data={homepage.productSection} />
       <Banner data={homepage.banner} />
       <WhyChooseUsSection />
-      <ServiceSection data={homepage.serviceSection} />
+      <ServiceSection />
     </main>
   );
 };
