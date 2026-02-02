@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Dark Charcoal/Black -->
+  <rect width="100" height="100" fill="#151515" />
+
+  <!-- Outer Circle Ring -->
+  <circle cx="50" cy="50" r="42" stroke="white" stroke-width="3" fill="none" />
+
+  <!-- Letter shapes Group -->
+  <g fill="white">
+    <!-- Letter P -->
+    <!-- Constructed as a path to ensure sharp corners and no font dependencies -->
+    <path d="M26 34 H48 V52 H36 V66 H26 V34 Z M36 42 H39 V44 H36 V42 Z" />
+    
+    <!-- Letter F -->
+    <path d="M54 34 H75 V42 H64 V46 H73 V54 H64 V66 H54 V34 Z" />
+  </g>
+</svg>
