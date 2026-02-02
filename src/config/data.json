@@ -125,16 +125,11 @@
         "accordionItems": [
             {
                 "id": 1,
-                "title": "What services do you offer?",
-                "content": "We provide chartering, logistics, product trading, and cargo movement solutions across international markets."
-            },
-            {
-                "id": 2,
                 "title": "Do you handle international shipments?",
                 "content": "Yes, we operate globally with trusted partners across major ports."
             },
             {
-                "id": 3,
+                "id": 2,
                 "title": "How can I request a quote?",
                 "content": "You can request a quote through our contact page — our team will respond promptly."
             }

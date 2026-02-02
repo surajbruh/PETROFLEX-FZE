@@ -3,22 +3,10 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const contactItems = [
     {
-        icon: Phone,
-        label: "Phone",
-        value: "+971 50 194 1986",
-        href: "tel:+971501941986",
-    },
-    {
         icon: Mail,
         label: "Email",
         value: "info@petroflexfze.com",
         href: "mailto:info@petroflexfze.com",
-    },
-    {
-        icon: MapPin,
-        label: "Location",
-        value: "Sharjah, United Arab Emirates",
-        href: null,
     },
 ];
 

@@ -3,12 +3,6 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const contactItems = [
     {
-        icon: Phone,
-        label: "Phone",
-        value: "+971 501 94 1986",
-        href: "tel:+971509036334",
-    },
-    {
         icon: Mail,
         label: "Email",
         value: "info@petroflexfze.com",
