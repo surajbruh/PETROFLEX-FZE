@@ -112,10 +112,16 @@
             "label": "Internal Experts"
         }
     ],
+    "aboutSection": {
+        "image": "/images/sections/about.jpg",
+        "heading": "Your Gateway to Worldwide Trade Efficiency.",
+        "description": "Welcome to PETROFLEX FZE, your trusted global trading partner. We specialize in the import, export, and international trading of petrochemicals, polymers, base oils, additives, and industrial raw materials. With a strong focus on quality, compliance, and reliability, we support businesses worldwide by delivering tailored trading solutions that help them succeed in competitive global markets.",
+        "quote": "“Our goal is to not only meet but exceed expectations, fostering long-lasting partnerships built on trust and mutual success.”"
+    },
     "whyChooseUsSection": {
         "heading": "Innovative Solutions for Every Challenge",
         "description": " No matter how complex the problem, we find creative and effective solutions that drive long-term success.",
-        "imageURL": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageURL": "/images/sections/why-choose-us.jpg",
         "accordionItems": [
             {
                 "id": 1,
@@ -166,9 +172,9 @@
             "heading": "Unlock global markets with trusted trade solutions",
             "description": "PETROFLEX FZE is a UAE-based trading company specializing in the import, export, and international trading of petrochemicals, polymers, raw materials, and crude oil across global markets.",
             "slides": [
-                "https://images.unsplash.com/photo-1768849940833-88a1be7a6b44?q=80&w=1166&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1761839258075-585182da7521?q=80&w=1170&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1769084644249-ad3e8b8ba730?q=80&w=1092&auto=format&fit=crop"
+                "/images/slides/slide1.jpg",
+                "/images/slides/slide2.jpg",
+                "/images/slides/slide3.jpg"
             ]
         },
         "productSection": {
@@ -190,14 +196,14 @@
             ]
         },
         "banner": {
-            "backgroundImage": "https://images.unsplash.com/photo-1761839258239-2be2146f1605?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "backgroundImage": "/images/banner.jpg"
         }
     },
     "aboutPage": {
-        "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "pageBannerImage": "/images/page-banner/about.jpg"
     },
     "productPage": {
-        "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "pageBannerImage": "/images/page-banner/products.jpg",
         "productSection": {
             "heading": "Petrochemical, polymer, and raw material trading solutions",
             "description": "Explore our portfolio of petrochemicals, polymers, base oils, and industrial raw materials, supplied to meet global trade and industry requirements.",
@@ -218,30 +224,30 @@
         }
     },
     "servicesPage": {
-        "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "pageBannerImage": "/images/page-banner/services.jpg"
     },
     "contactPage": {
-        "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "pageBannerImage": "/images/page-banner/contact.jpg",
         "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28818.199367496814!2d55.44535797431641!3d25.462493899999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f562c4de2acd3%3A0x3843063a7aa84df6!2sHamriyah%20Free%20Zone%20-%20Head%20Office!5e0!3m2!1sen!2sin!4v1769841658355!5m2!1sen!2sin"
     },
     "petroChemicalsPage": {
-        "pageBannerImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "heroImage": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "pageBannerImage": "/images/page-banner/products.jpg",
+        "heroImage": "/images/chemical2.jpg",
         "heading": "Petrochemicals & Raw Materials Trading",
         "description": "We specialize in the international trading and distribution of petrochemicals and industrial raw materials, supporting manufacturers and energy sectors across global markets.",
         "supportingContent": {
-            "image": "https://images.unsplash.com/photo-1768862042479-7ed3f209a5da?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "/images/chemical1.jpg",
             "text": "Our trading operations are designed to handle bulk shipments and specialized requirements with a strong focus on quality control, regulatory compliance, and efficient global logistics."
         },
         "paragraph": "By working closely with trusted suppliers and international partners, we ensure consistent material availability, competitive pricing, and long-term reliability for our clients. Our expertise in petrochemical and raw material trading enables businesses to optimize production processes while reducing operational risks."
     },
     "crudeOilPage": {
-        "pageBannerImage": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0",
-        "heroImage": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0",
+        "pageBannerImage": "/images/page-banner/products.jpg",
+        "heroImage": "/images/oil1.jpg",
         "heading": "Crude Oil Trading Abroad",
         "description": "We facilitate international crude oil trading outside the UAE, connecting global buyers and sellers through compliant, transparent, and reliable trading operations.",
         "supportingContent": {
-            "image": "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0",
+            "image": "/images/oil2.jpg",
             "text": "Our crude oil trading services focus on sourcing, contract management, and coordination with international partners, ensuring adherence to global trade regulations and industry standards."
         },
         "paragraph": "With a strong network of international suppliers and buyers, we support spot and term trading opportunities while prioritizing risk management, documentation accuracy, and long-term commercial relationships. Our expertise enables clients to navigate complex global crude oil markets with confidence and efficiency."
