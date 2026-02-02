@@ -1,7 +1,10 @@
 import React from "react";
+import useDataContext from "../contexts/DataContext";
 import ProductCard from "../components/ProductCard";
 
-const ProductSection = ({ data }) => {
+const ProductSection = () => {
+    const { productSection: data } = useDataContext()
+
     return (
         <section
             aria-labelledby="products-heading"
@@ -30,7 +33,7 @@ const ProductSection = ({ data }) => {
 
                 {/* Product Cards */}
                 <div className="grid gap-6 sm:grid-cols-2">
-                    {data.products.map((product) => (
+                    {data.products?.map((product) => (
                         <ProductCard
                             key={product.href}
                             icon={product.icon}

@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <main>
       <Carousel hero={homepage.hero} />
-      <ProductSection data={homepage.productSection} />
+      <ProductSection />
       <Banner data={homepage.banner} />
       <WhyChooseUsSection />
       <ServiceSection />

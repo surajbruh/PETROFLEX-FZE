@@ -167,6 +167,24 @@
             }
         ]
     },
+    "productSection": {
+        "heading": "Petrochemical, polymer, and raw material trading solutions",
+        "description": "Explore our portfolio of petrochemicals, polymers, base oils, and industrial raw materials, supplied to meet global trade and industry requirements.",
+        "products": [
+            {
+                "icon": "/svg/icon1.svg",
+                "title": "Petrochemicals & Raw Materials",
+                "description": "Trading and global distribution of petrochemicals and industrial raw materials to support manufacturing and energy sectors worldwide.",
+                "href": "/products/petrochemicals-raw-materials"
+            },
+            {
+                "icon": "/svg/icon1.svg",
+                "title": "Crude Oil Trading Abroad",
+                "description": "International trading of crude oil outside the UAE, conducted in compliance with global trade regulations.",
+                "href": "/products/crude-oil-trading-abroad"
+            }
+        ]
+    },
     "homepage": {
         "hero": {
             "heading": "Unlock global markets with trusted trade solutions",
@@ -177,24 +195,6 @@
                 "/images/slides/slide3.jpg"
             ]
         },
-        "productSection": {
-            "heading": "Petrochemical, polymer, and raw material trading solutions",
-            "description": "Explore our portfolio of petrochemicals, polymers, base oils, and industrial raw materials, supplied to meet global trade and industry requirements.",
-            "products": [
-                {
-                    "icon": "/svg/icon1.svg",
-                    "title": "Petrochemicals & Raw Materials",
-                    "description": "Trading and global distribution of petrochemicals and industrial raw materials to support manufacturing and energy sectors worldwide.",
-                    "href": "/products/petrochemicals-raw-materials"
-                },
-                {
-                    "icon": "/svg/icon1.svg",
-                    "title": "Crude Oil Trading Abroad",
-                    "description": "International trading of crude oil outside the UAE, conducted in compliance with global trade regulations.",
-                    "href": "/products/crude-oil-trading-abroad"
-                }
-            ]
-        },
         "banner": {
             "backgroundImage": "/images/banner.jpg"
         }
@@ -203,25 +203,7 @@
         "pageBannerImage": "/images/page-banner/about.jpg"
     },
     "productPage": {
-        "pageBannerImage": "/images/page-banner/products.jpg",
-        "productSection": {
-            "heading": "Petrochemical, polymer, and raw material trading solutions",
-            "description": "Explore our portfolio of petrochemicals, polymers, base oils, and industrial raw materials, supplied to meet global trade and industry requirements.",
-            "products": [
-                {
-                    "icon": "/svg/icon1.svg",
-                    "title": "Petrochemicals & Raw Materials",
-                    "description": "Trading and global distribution of petrochemicals and industrial raw materials to support manufacturing and energy sectors worldwide.",
-                    "href": "/products/petrochemicals-raw-materials"
-                },
-                {
-                    "icon": "/svg/icon1.svg",
-                    "title": "Crude Oil Trading Abroad",
-                    "description": "International trading of crude oil outside the UAE, conducted in compliance with global trade regulations.",
-                    "href": "/products/crude-oil-trading-abroad"
-                }
-            ]
-        }
+        "pageBannerImage": "/images/page-banner/products.jpg"
     },
     "servicesPage": {
         "pageBannerImage": "/images/page-banner/services.jpg"

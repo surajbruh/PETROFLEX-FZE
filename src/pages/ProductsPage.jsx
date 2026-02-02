@@ -10,7 +10,7 @@ const ProductsPage = () => {
     return (
         <main>
             <PageBanner backgroundImage={productPage.pageBannerImage} />
-            <ProductSection data={productPage.productSection} />
+            <ProductSection />
         </main>
     )
 }
