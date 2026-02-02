@@ -16,8 +16,6 @@ const StandardContentSection = ({ data }) => {
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/(^-|-$)/g, "");
 
-    console.log(headingId)
-
     return (
         <article className="space-y-6">
             {/* Feature Image */}
