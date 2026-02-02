@@ -8,6 +8,12 @@ const contactItems = [
         value: "info@petroflexfze.com",
         href: "mailto:info@petroflexfze.com",
     },
+    {
+        icon: MapPin,
+        label: "Location",
+        value: "Sharjah, United Arab Emirates",
+        href: null,
+    },
 ];
 
 const ContactInfo = () => {
