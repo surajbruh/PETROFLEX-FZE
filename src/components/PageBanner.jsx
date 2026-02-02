@@ -1,10 +1,8 @@
-import { useLocation } from "react-router-dom";
+import { useContext } from "react";
+import { PageContext } from "../contexts/PageContext";
 
 const PageBanner = ({ backgroundImage }) => {
-    const { pathname } = useLocation();
-
-    const endpoint = pathname.split("/").filter(Boolean).pop() || "home";
-    const pageTitle = endpoint.charAt(0).toUpperCase() + endpoint.slice(1);
+    const pageTitle = useContext(PageContext)
 
     return (
         <header className="w-full">

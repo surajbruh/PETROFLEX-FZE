@@ -1,10 +1,15 @@
 import React from "react";
-import useDataContext from "../contexts/DataContext";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { PageContext } from "../contexts/PageContext";
+
+import useDataContext from "../contexts/DataContext";
 import ServiceCard from "../components/ServiceCard";
 
 const ServiceSection = () => {
     const { serviceSection: data } = useDataContext()
+    const pageTitle = useContext(PageContext)
+
     return (
         <section
             aria-labelledby="services-heading"
@@ -48,9 +53,11 @@ const ServiceSection = () => {
                 </ul>
 
                 {/* CTA */}
-                <Link
-                    to="/services"
-                    className="
+                {
+                    pageTitle?.toLowerCase() !== "services" &&
+                    <Link
+                        to="/services"
+                        className="
             mx-auto w-max flex items-center justify-center
             uppercase px-8 py-3 sm:py-3.5
             text-sm sm:text-base font-medium
@@ -60,10 +67,11 @@ const ServiceSection = () => {
             transition-colors
             focus:outline-none focus-visible:ring-2 focus-visible:ring-white
           "
-                    aria-label="View all PETROFLEX FZE services"
-                >
-                    View all services
-                </Link>
+                        aria-label="View all PETROFLEX FZE services"
+                    >
+                        View all services
+                    </Link>
+                }
             </div>
         </section>
     );
